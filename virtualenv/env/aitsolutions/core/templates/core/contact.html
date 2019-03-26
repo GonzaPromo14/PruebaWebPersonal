@@ -1,0 +1,22 @@
+{% extends 'core/base.html'%}
+
+{% block title %}Contacto{% endblock %}
+
+{%block background%}{% load static %}{% static 'core/img/contact-bg.jpg' %}{% endblock %}
+
+{%block headers%}
+<h1>Contacto</h1>
+<span class="subheading">Contactesé con nosotros</span>
+{%endblock%}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Estos son los medios de comunicación</p>
+        <br>
+        <p><b>Teléfono:</b> +54 9 03574 15401415</p>
+        <p><b>Envíe un email a:</b> <a href="mailto:martinez.gabriel.gonzalo@gmail.com">martinez.gabriel.gonzalo@gmail.com</a></p>
+    </div>
+</div>
+{% endblock %}
